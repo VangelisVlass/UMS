@@ -1,0 +1,50 @@
+.pagination{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.pagination > input[type='text']{
+    width: 50px;
+    margin: 0;
+    border-radius: 0;
+    border-left: 0;
+}
+
+.selector{
+    padding: 10px;
+    border: 1px solid var(--borderColor);
+    border-left: 0;
+}
+
+.pagination >button {
+    margin: 0;
+    border-radius: 0;
+    border-left: 0;
+}
+
+.pagination > button:first-child{
+    border-radius: 5px 0 0 5px;
+    border-left: 1px solid var(--borderColor);
+}
+
+.pagination > button:last-child{
+    border-radius: 0 5px 5px 0;
+}
+
+td{
+    padding: 10px;
+    border: 1px solid var(--borderColor);
+
+}
+
+td> input[type="text"]{
+    width: fit-content;
+    margin: 0;
+
+}
+
+.isBeingEdited{
+    background-color: #1da1f35e;
+}

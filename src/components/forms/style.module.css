@@ -1,0 +1,46 @@
+.box{
+  border: 1px solid var(--borderColor);
+  border-radius: 5px 5px 0 0;
+  padding: 12px;
+}
+
+input[type='text'], input[type='password'] {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+  width: 30vw;
+}
+
+button {
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: var(--backgroundLight);
+  border: 1px solid var(--borderColor);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: var(--twitterColor);
+}
+
+.inlineBlock{
+    display: inline;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keepMeLogged {
+    margin: 10px 0 15px 0;
+}
+
+.displayNone {
+    display: none;
+}
+
+.fixWidht{
+    width: 30vw;
+}
